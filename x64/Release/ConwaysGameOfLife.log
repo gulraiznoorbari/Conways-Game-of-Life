@@ -1,0 +1,12 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+  UnInitDynamicArray.h
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1404 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ConwaysGameOfLife.vcxproj -> C:\Users\Gulra\Desktop\Conway's Game of Life\ConwaysGameOfLife\x64\Release\ConwaysGameOfLife.exe
