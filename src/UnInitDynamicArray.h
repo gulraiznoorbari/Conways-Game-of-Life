@@ -39,9 +39,9 @@ public:
 	UnInitDynamicArray(int);
 	UnInitDynamicArray(const UnInitDynamicArray<T>&);
 
+	int GetSize();
 	void Insert(const T&);
 	void Delete(const T&);
-	int GetSize();
 	void Resize(int);
 
 	T& operator[](int);
@@ -113,7 +113,7 @@ void UnInitDynamicArray<T>::Delete(const T& value)
 			temp[j] = _array[i];
 		}
 	}
-	delete[] _array;
+	//delete[] _array;
 	_arraySize--;
 	_array = temp;
 }

@@ -19,7 +19,7 @@ void Update(bool **grid, UnInitDynamicArray<Position>& cells, int row, int colum
 		{
 			int temp_x = x + offset[j][0];
 			int temp_y = y + offset[j][1];
-			if ((temp_x > 0 && temp_x < row) && (temp_y > 0 && temp_y < column))
+			if ((temp_x >= 0 && temp_x < row) && (temp_y >= 0 && temp_y < column))
 			{
 				if (grid[temp_x][temp_y] == 0)
 				{
